@@ -1,11 +1,114 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-main: "Onest", sans-serif;
+
+    --color-background-primary: #080807;
+    --color-background-secondary: #110f0e;
+    --color-background-tertiary: #1c1917;
+    --color-background-blur: #0b0a09, 1%;
+
+    --color-content-primary: #ffffff;
+    --color-content-secondary: #a3a3a3;
+    --color-content-tertiary: #696663;
+    --color-content-inverse: #0a0908;
+
+    --color-accent-orange: #ed712e;
+    --color-accent-red: #eb4b5b;
+    --color-accent-blue: #55a1f2;
+    --color-accent-green: #44cb93;
+    --color-accent-purple: #9d8afe;
+
+    --color-border-primary: #161412;
+}
+
+:root {
+    --heading-medium-size: 24px;
+    --heading-medium-line: 32px;
+    --heading-medium-weight: 700;
+
+    --heading-small-size: 20px;
+    --heading-small-line: 24px;
+    --heading-small-weight: 700;
+
+    --paragraph-large-size: 16px;
+    --paragraph-large-line: 20px;
+    --paragraph-large-weight: 400;
+
+    --paragraph-medium-size: 14px;
+    --paragraph-medium-line: 16px;
+    --paragraph-medium-weight: 400;
+
+    --paragraph-small-size: 12px;
+    --paragraph-small-line: 14px;
+    --paragraph-small-weight: 400;
+
+    --label-large-size: 16px;
+    --label-large-line: 20px;
+    --label-large-weight: 600;
+
+    --label-medium-size: 14px;
+    --label-medium-line: 16px;
+    --label-medium-weight: 600;
+
+    --label-small-size: 12px;
+    --label-small-line: 12px;
+    --label-small-weight: 600;
+}
+
+@layer utilities {
+    .heading-medium {
+        font-size: var(--heading-medium-size);
+        line-height: var(--heading-medium-line);
+        font-weight: var(--heading-medium-weight);
+    }
+
+    .heading-small {
+        font-size: var(--heading-small-size);
+        line-height: var(--heading-small-line);
+        font-weight: var(--heading-small-weight);
+    }
+
+    .paragraph-large {
+        font-size: var(--paragraph-large-size);
+        line-height: var(--paragraph-large-line);
+        font-weight: var(--paragraph-large-weight);
+    }
+
+    .paragraph-medium {
+        font-size: var(--paragraph-medium-size);
+        line-height: var(--paragraph-medium-line);
+        font-weight: var(--paragraph-medium-weight);
+    }
+
+    .paragraph-small {
+        font-size: var(--paragraph-small-size);
+        line-height: var(--paragraph-small-line);
+        font-weight: var(--paragraph-small-weight);
+    }
+
+    .label-large {
+        font-size: var(--label-large-size);
+        line-height: var(--label-large-line);
+        font-weight: var(--label-large-weight);
+    }
+
+    .label-medium {
+        font-size: var(--label-medium-size);
+        line-height: var(--label-medium-line);
+        font-weight: var(--label-medium-weight);
+    }
+
+    .label-small {
+        font-size: var(--label-small-size);
+        line-height: var(--label-small-line);
+        font-weight: var(--label-small-weight);
+    }
 }
