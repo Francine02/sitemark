@@ -30,7 +30,7 @@ class LoginRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'emaill.required' => 'O email é obrigatório!',
+            'email.required' => 'O email é obrigatório!',
             'email.email' => 'O email é inválido!',
 
             'password.required' => 'A senha é obrigatória!',
