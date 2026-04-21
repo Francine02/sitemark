@@ -8,6 +8,10 @@
         <section class="text-content-primary m-auto lg:max-w-sm w-full">
             <img class="mx-auto mb-16" src="/images/logo.png" alt="sitemark" />
             @yield('content-auth')
+
+            <p class="block text-center text-content-secondary text-xs pt-24">
+                @yield('content-auth-footer')
+            </p>
         </section>
     </main>
 @endsection
