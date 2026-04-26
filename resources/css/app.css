@@ -29,6 +29,23 @@
     --color-border-primary: #161412;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #110f0e;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1c1917;
+    border-radius: 24px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
 :root {
     --heading-medium-size: 24px;
     --heading-medium-line: 32px;
