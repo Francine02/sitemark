@@ -18,6 +18,7 @@ return new class extends Migration
 
             $table->string('title');
             $table->string('url');
+            $table->string('color');
             $table->string('stream_plataform');
             $table->string('image');
             $table->integer('position')->default(0);
