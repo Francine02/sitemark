@@ -11,7 +11,8 @@ class Link extends Model
         'url',
         'stream_plataform',
         'image',
-        'position'
+        'position',
+        'color'
     ];
 
     public function user()
