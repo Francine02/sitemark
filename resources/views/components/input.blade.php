@@ -12,8 +12,9 @@
 <div>
     <label class="paragraph-medium block mt-5 mb-2">
         {{ $label }}
-        <input name="{{ $name }}" value="{{ old($name) }}" type="{{ $type }}"
-            placeholder="{{ $placeholder }}" @class([
+        <input name="{{ $name }}" value="{{ old($name, data_get(auth()->user(), $name)) }}"
+            type="{{ $type }}" {{ $attributes }} placeholder="{{ $placeholder }}"
+            @class([
                 'bg-background-secondary w-full p-3 rounded-xl outline-0 hover:bg-background-tertiary/60 placeholder:text-content-tertiary mt-1 hover:border hover:border-primary',
                 'border-accent-red border' => $hasError,
             ]) />
