@@ -24,7 +24,7 @@ class CompleteRegisterRequest extends FormRequest
         return [
             'name' => 'required|max:50',
             'email' => 'required|email',
-            'bio' => 'required|min:10|max:255',
+            'bio' => 'nullable|min:10|max:255',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
         ];
     }
@@ -38,7 +38,6 @@ class CompleteRegisterRequest extends FormRequest
             'email.required' => 'O email é obrigatório!',
             'email.email' => 'O email é inválido!',
 
-            'bio.required' => 'A bio é obrigatória!',
             'bio.min' => 'A bio precisa ter no mínimo 10 caracteres!',
             'bio.max' => 'A bio precisa ter no máximo 255 caracteres!',
 
