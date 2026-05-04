@@ -35,7 +35,7 @@
         @endphp
 
         @if ($button['type'] === 'logout')
-            <button onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+            <button form="logout-form"
                 class="{{ $baseClass }} {{ $activeClass }}">
                 <i class="{{ $button['icon'] }}"></i>
             </button>
