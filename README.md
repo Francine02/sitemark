@@ -13,11 +13,11 @@
 ---
 
 ## Visualização do Projeto:
-<img width="500" alt="Captura de tela 2026-05-10 130720" src="https://github.com/user-attachments/assets/c1dbe91a-be78-4104-8309-ad2c5f9a1537" />
-<img width="500" alt="Captura de tela 2026-05-10 130834" src="https://github.com/user-attachments/assets/a8a19183-177d-4ac3-86ef-4ff35fdc387b" />
-<img width="500" alt="Captura de tela 2026-05-10 130847" src="https://github.com/user-attachments/assets/bae24535-6b56-44de-93e2-3c638743daa4" />
-<img width="500" alt="Captura de tela 2026-05-10 130855" src="https://github.com/user-attachments/assets/eb7fb8dd-7cc8-4003-a5d9-1bd6f74094c4" />
-<img width="500" alt="Captura de tela 2026-05-10 130907" src="https://github.com/user-attachments/assets/118ed0c1-ff8f-4567-ac91-62db5627db27" />
+<img width="400" alt="Captura de tela 2026-05-10 130720" src="https://github.com/user-attachments/assets/c1dbe91a-be78-4104-8309-ad2c5f9a1537" />
+<img width="400" alt="Captura de tela 2026-05-10 130834" src="https://github.com/user-attachments/assets/a8a19183-177d-4ac3-86ef-4ff35fdc387b" />
+<img width="400" alt="Captura de tela 2026-05-10 130847" src="https://github.com/user-attachments/assets/bae24535-6b56-44de-93e2-3c638743daa4" />
+<img width="400" alt="Captura de tela 2026-05-10 130855" src="https://github.com/user-attachments/assets/eb7fb8dd-7cc8-4003-a5d9-1bd6f74094c4" />
+<img width="400" alt="Captura de tela 2026-05-10 130907" src="https://github.com/user-attachments/assets/118ed0c1-ff8f-4567-ac91-62db5627db27" />
 
 ---
 
