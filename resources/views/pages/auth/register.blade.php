@@ -21,13 +21,13 @@
 
         <x-input name="password" label="Senha" placeholder="****" type="password" />
 
-        <x-button type="submit" class="mt-24 flex mx-auto">
+        <x-button type="submit" class="mt-16 md:mt-24 flex mx-auto">
             Criar conta
         </x-button>
     </form>
 @endsection
 
-@section('content-footer')
+@section('content-auth-footer')
     Já tem cadastro?
 
     <a href="{{ route('login') }}" class="text-content-primary hover:brightness-90 hover:cursor-pointer">
