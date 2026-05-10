@@ -18,13 +18,13 @@
             class="paragraph-medium hover:brightness-90 cursor-pointer">{{ $link->url }}</a>
     </div>
 
-    <form id="delete-form" action="{{ route('links.delete', $link->id) }}" method="POST" class="hidden">
+    <form id="delete-form-{{ $link->id }}" action="{{ route('links.delete', $link->id) }}" method="POST" class="hidden">
         @csrf
         @method('DELETE')
     </form>
 
     <div class="ml-auto">
-        <button form="delete-form" type="submit" class="p-1 lg:p-2 hover:brightness-80 cursor-pointer">
+        <button form="delete-form-{{ $link->id }}" type="submit" class="p-1 lg:p-2 hover:brightness-80 cursor-pointer">
             <i class="iconoir-trash text-lg"></i>
         </button>
 
