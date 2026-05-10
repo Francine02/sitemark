@@ -25,7 +25,7 @@
         <script>
             Toastify({
                 text: `
-                <div style="display:flex; align-items:center; gap:8px;">
+                <div style="display:flex; align-items:center; gap:8px">
                     <i class="iconoir-check-circle-solid text-accent-green"></i>
                     <span>{{ session('success') }}</span>
                 </div>
@@ -33,6 +33,7 @@
                 duration: 3000,
                 gravity: "top",
                 position: "right",
+                className: "w-fit min-w-72",
                 escapeMarkup: false,
                 style: {
                     background: "#110f0e"

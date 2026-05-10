@@ -2,13 +2,13 @@
     <x-title id="modal-title">Adicionar link</x-title>
 
     <form id="form-modal" method="POST" action="{{ route('links.store') }}" enctype="multipart/form-data"
-        class="pt-10 flex gap-8">
+        class="pt-10 flex flex-col-reverse md:flex-row gap-8">
 
         @csrf
         <input type="hidden" name="_method" id="form-method" value="POST">
 
         <div>
-            <div class="flex gap-3">
+            <div class="flex flex-col md:flex-row gap-3">
                 <x-input id="input-title" name="title" placeholder="Digite o nome do conteúdo"
                     label="Título do link" />
 

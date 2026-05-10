@@ -15,7 +15,7 @@
 
         <x-input name="password" label="Senha" placeholder="Insira sua senha" type="password" />
 
-        <x-button type="submit" class="mt-24 flex mx-auto">
+        <x-button type="submit" class="mt-16 md:mt-24 flex mx-auto">
             Acessar conta
         </x-button>
     </form>

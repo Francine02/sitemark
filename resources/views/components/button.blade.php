@@ -6,8 +6,8 @@
 
 @php
     $variants = [
-        'default' => 'px-8 py-3 text-content-inverse bg-accent-orange rounded-4xl font-semibold',
-        'dark' => 'px-8 py-3.5 bg-background-secondary text-accent-orange rounded-4xl font-semibold',
+        'default' => 'px-4 md:px-8 py-3 text-content-inverse bg-accent-orange rounded-4xl font-semibold text-sm md:text-base w-fit',
+        'dark' => 'px-4 md:px-8 py-3.5 bg-background-secondary text-accent-orange rounded-4xl font-semibold text-sm md:text-base w-fit',
     ];
 
     $classes = $variants[$variant] ?? $variants['default'];
