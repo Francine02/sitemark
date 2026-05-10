@@ -23,7 +23,7 @@
         @method('PUT')
         <input type="hidden" name="order" id="order-input">
     </form>
-    <div id="links-list" class="space-y-4 max-h-[50svh] overflow-y-auto px-5 md:px-10 z-0">
+    <div id="links-list" class="space-y-4 max-h-[50svh] overflow-y-auto md:px-10 z-0">
         @foreach ($links as $link)
             <x-card :link="$link" />
         @endforeach
