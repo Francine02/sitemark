@@ -215,12 +215,21 @@ Caso tenha instalado o Laravel Herd, siga esses passos sobre como [linkar um pro
 
 Durante o desenvolvimento deste projeto foram praticados conceitos como:
 
+- Estruturação de aplicações com Laravel
 - Componentização com Blade
-- Validações frontend e backend
-- Upload de imagens
+- Criação e organização de rotas
+- Desenvolvimento de controllers e models
+- Manipulação de formulários e validações
+- Integração entre frontend e backend
+- Upload e manipulação de imagens
 - Manipulação dinâmica de listas
-- Organização de estrutura Laravel
 - Reordenação com drag and drop
+- Feedback visual com notificações
+- Organização de regras de negócio
+- Utilização de migrations para gerenciamento do banco de dados
+- Uso do Composer para gerenciamento de dependências PHP
+- Configuração de ambiente Laravel
+- Boas práticas de organização de projeto
 
 ---
 
