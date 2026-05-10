@@ -1,58 +1,262 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center"> 
+    <img width="55" height="46" alt="favicon" src="https://github.com/user-attachments/assets/36015abb-5b32-42f3-91b3-f8810ec1572a" />
+    <h1>Sitemark</h1>
+    <div>
+        <img src="https://img.shields.io/github/last-commit/Francine02/Sitemark?style=flat&logo=git&logoColor=white&color=110F0E" alt="Last Commit">
+        <img src="https://img.shields.io/github/languages/top/Francine02/Sitemark?style=flat&color=ED712E" alt="Top Language">
+        <img src="https://img.shields.io/github/languages/count/Francine02/Sitemark?style=flat&color=110F0E" alt="Languages Count">
+    </div>
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Sitemark** é um desafio do curso de **PHP - Rocketseat**, nesse desafio é necessário desenvolver um Organizador de Links em PHP com o framework Laravel, uma aplicação onde os usuários podem salvar e gerenciar links de conteúdos que desejam assistir em plataformas de streaming, como séries, filmes e shows.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Visualização do Projeto:
+<img width="500" alt="Captura de tela 2026-05-10 130720" src="https://github.com/user-attachments/assets/c1dbe91a-be78-4104-8309-ad2c5f9a1537" />
+<img width="500" alt="Captura de tela 2026-05-10 130834" src="https://github.com/user-attachments/assets/a8a19183-177d-4ac3-86ef-4ff35fdc387b" />
+<img width="500" alt="Captura de tela 2026-05-10 130847" src="https://github.com/user-attachments/assets/bae24535-6b56-44de-93e2-3c638743daa4" />
+<img width="500" alt="Captura de tela 2026-05-10 130855" src="https://github.com/user-attachments/assets/eb7fb8dd-7cc8-4003-a5d9-1bd6f74094c4" />
+<img width="500" alt="Captura de tela 2026-05-10 130907" src="https://github.com/user-attachments/assets/118ed0c1-ff8f-4567-ac91-62db5627db27" />
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Demonstração em Vídeo:
+https://github.com/user-attachments/assets/7afea740-edb9-4bb6-a403-9535cea96bc2
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Funcionalidades:
+### Autenticação
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Cadastro de usuário
+- Tela de login
+- Validação de formulário em tempo real
+- Validação de senha com mínimo de 8 caracteres
+- Feedback visual de erros e acertos nos campos
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+---
 
-## Agentic Development
+### Gerenciamento de Links
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+- Listagem de links cadastrados
+- Exibição de:
+  - imagem do link
+  - título
+  - URL
+  - categoria
+  - ações disponíveis
+- Reordenação de links utilizando arrastar e soltar
+- Atualização visual imediata da ordem dos links
+
+---
+
+### Cadastro de Novos Links
+
+- Adição de novos links
+- Upload de imagem
+- Cadastro de:
+  - título
+  - URL
+  - plataforma de stream
+- Validação de campos
+
+---
+
+### Perfil do Usuário
+
+- Edição de perfil
+- Atualização de:
+  - nome
+  - e-mail
+  - bio
+  - imagem de perfil
+- Upload e substituição de imagem
+- Validação dos campos
+
+---
+
+## Tecnologias utilizadas:
+- **PHP (^8.3)**  
+  Linguagem utilizada no desenvolvimento do backend da aplicação.
+
+- **Laravel (^13.0)**  
+  Framework PHP responsável pelas rotas, validações, autenticação e estrutura geral do projeto.
+
+- **Blade**  
+  Engine de templates do Laravel utilizada na componentização e renderização das views.
+
+- **Vite (^8.0.0)**  
+  Ferramenta de build e desenvolvimento frontend com recarregamento rápido.
+
+- **Tailwind CSS (^4.2.2)**  
+  Framework CSS utilitário utilizado para estilização e responsividade da interface.
+
+- **SortableJS (^1.15.7)**  
+  Biblioteca utilizada para manipulação e reordenação dinâmica dos links.
+
+- **Toastify JS**  
+  Biblioteca utilizada para exibição de notificações e feedbacks visuais ao usuário.
+
+---
+
+## Arquitetura do projeto:
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+sitemark
+│
+├── app/               
+│   ├── Http/          # Controllers, Requests e Middlewares
+│   ├── Models/        # Models responsáveis pela comunicação com o banco
+│   ├── Providers/     # Configurações e providers do Laravel
+│   └── Services/      # Serviços e lógicas reutilizáveis da aplicação
+├── bootstrap/         # Inicialização e carregamento do framework
+├── config/            # Arquivos de configuração do Laravel
+├── database/          # Migrations, seeders e factories do banco de dados
+├── public/            # Arquivos públicos acessíveis pelo navegador
+├── resources/         # Arquivos frontend 
+│   ├── css/           # Estilos globais e customizados
+│   ├── js/            # Scripts JavaScript da aplicação
+│   └── views/         # Views Blade e componentes da interface
+├── routes/            # Definição das rotas da aplicação
+├── storage/           # Uploads, logs e arquivos temporários
+├── tests/             # Testes automatizados  
+├── composer.json      # Dependências PHP e scripts do Composer
+├── package.json       # Dependências frontend e scripts NPM
+└── vite.config.js     # Configuração do Vite
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+---
 
-## Contributing
+## Como executar o projeto:
+### Pré-requisitos
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Antes de começar, você precisa ter instalado em sua máquina:
 
-## Code of Conduct
+- PHP 8.3+
+- Composer
+- [Node.js](https://nodejs.org/en/download)
+- [Docker](https://www.docker.com/) ou qualquer outro banco de dados SQL
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Recomendo o [Laravel Herd](https://herd.laravel.com) pois ele já vem configurado com PHP, Laravel e Nginx.
 
-## Security Vulnerabilities
+### Etapas para rodar o projeto:
+1. Clone o repositório:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```bash
+git clone https://github.com/Francine02/sitemark.git
+cd sitemark
+```
 
-## License
+---
+2. Instale as dependências do backend
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+composer install
+```
+
+---
+3. Instale as dependências do frontend
+
+```bash
+npm install
+```
+
+---
+
+4. Configure o ambiente
+
+Crie o arquivo `.env`:
+
+```bash
+cp .env.example .env
+```
+
+Gere a chave da aplicação:
+
+```bash
+php artisan key:generate
+```
+
+---
+5. Caso utilize Docker, inicie o container
+
+```bash
+docker-compose up
+```
+
+---
+6. Execute as migrations
+
+```bash
+php artisan migrate
+```
+
+---
+7. Inicie o servidor
+
+Frontend:
+
+```bash
+npm run dev
+```
+
+Se não tiver o Laravel Herd:
+
+```bash
+php artisan serve
+```
+
+Caso tenha instalado o Laravel Herd, siga esses passos sobre como [linkar um projeto existente](https://herd.laravel.com/docs/windows/getting-started/sites)
+
+---
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos como:
+
+- Componentização com Blade
+- Validações frontend e backend
+- Upload de imagens
+- Manipulação dinâmica de listas
+- Organização de estrutura Laravel
+- Reordenação com drag and drop
+
+---
+
+## Contribuição:
+Contribuições são bem-vindas!
+
+1. Faça um fork deste repositório
+2. Crie uma branch para sua feature
+
+```bash
+git checkout -b feature/minha-feature
+```
+
+3. Faça commit das alterações
+
+```bash
+git commit -m "feat: adiciona nova funcionalidade"
+```
+
+4. Faça o push para sua branch
+
+```bash
+git push origin feature/minha-feature
+```
+
+5. Abra um Pull Request
+
+---
+## Issues
+
+Encontrou algum problema ou tem alguma sugestão?
+
+Abra uma issue neste repositório descrevendo:
+- o problema encontrado
+- comportamento esperado
+- prints ou mensagens de erro (se houver)
+- passos para reproduzir
+
+Toda contribuição e feedback são bem-vindos.
