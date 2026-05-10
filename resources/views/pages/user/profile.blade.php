@@ -1,5 +1,8 @@
 @extends('layouts.content')
 
+<head>
+    <title>Sitemark | Perfil</title>
+</head>
 @section('content-dashboard')
     <div class="flex justify-between items-center mb-17 lg:mb-0">
         <x-title>Perfil</x-title>

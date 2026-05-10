@@ -1,5 +1,8 @@
 @extends('layouts.auth')
 
+<head>
+    <title>Sitemark | Login</title>
+</head>
 @section('content-auth')
     <x-title>
         Acessar conta

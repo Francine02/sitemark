@@ -1,5 +1,8 @@
 @extends('layouts.content')
 
+<head>
+    <title>Sitemark | Home</title>
+</head>
 @section('content-dashboard')
     <div class="flex justify-between items-center mb-17">
         <x-title>

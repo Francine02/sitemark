@@ -1,5 +1,8 @@
 @extends('layouts.auth')
 
+<head>
+    <title>Sitemark | Cadastro</title>
+</head>
 @section('content-auth')
     <x-title>
         Criar conta
