@@ -68,9 +68,15 @@ class LinkController extends Controller
 
     public function updatePosition(Request $request)
     {
-        $this->service->updatePositions($request->order);
+        $order = json_decode($request->order, true);
 
-        return response()->json(['success' => true]);
+        if (!$order) {
+            return redirect()->back()->with('error', 'Erro ao atualizar ordem');
+        }
+
+        $this->service->updatePositions($order);
+
+        return redirect()->back()->with('success', 'Ordem atualizada com sucesso');
     }
 
     public function destroy($id)
