@@ -9,7 +9,7 @@ Route::get('/', function () {
     return view('pages.auth.login');
 });
 
-Route::prefix('auth')->group(function () {
+Route::middleware('guest')->prefix('auth')->group(function () {
     Route::get('/register', [AuthController::class, 'showRegisterForm'])->name('register');
     Route::post('/register', [AuthController::class, 'store'])->name('register');
 
